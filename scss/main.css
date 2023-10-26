@@ -168,6 +168,7 @@ header nav ul li a span {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-right: 30px;
 }
 .s-hero .right-container .image {
   position: absolute;
@@ -196,4 +197,34 @@ header nav ul li a span {
   bottom: 0.6rem;
   right: 1rem;
   z-index: 3;
+}
+.s-hero .right-container .offer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.s-hero .right-container .offer::before {
+  content: "";
+  width: 8rem;
+  height: 1.4rem;
+  background: url("../img/line-left.svg") no-repeat center center;
+}
+.s-hero .right-container .offer::after {
+  content: "";
+  width: 8rem;
+  height: 1.4rem;
+  background: url("../img/line-right.svg") no-repeat center center;
+}
+.s-hero .right-container .offer p {
+  color: var(--branco);
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  display: flex;
+  align-items: center;
+}
+.s-hero .right-container .offer p img {
+  margin-right: 1.6rem;
+}
+.s-hero .right-container .offer p strong {
+  margin-left: 0.5rem;
 }/*# sourceMappingURL=main.css.map */

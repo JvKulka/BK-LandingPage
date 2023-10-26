@@ -179,6 +179,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-right: 30px;
     .image {
       position: absolute;
       width: 68.4rem;
@@ -204,6 +205,36 @@ header {
           bottom: 0.6rem;
           right: 1rem;
           z-index: 3;
+        }
+      }
+    }
+    .offer {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      &::before {
+        content: "";
+        width: 8rem;
+        height: 1.4rem;
+        background: url("../img/line-left.svg") no-repeat center center;
+      }
+      &::after {
+        content: "";
+        width: 8rem;
+        height: 1.4rem;
+        background: url("../img/line-right.svg") no-repeat center center;
+      }
+      p {
+        color: var(--branco);
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 1.6rem;
+        }
+        strong {
+          margin-left: 0.5rem;
         }
       }
     }
