@@ -11,6 +11,7 @@
   --amarelo: #faaf18;
   --bege: #f5ece7;
   --laranja: #ed7902;
+  --azul: #475993;
 }
 
 html {
@@ -227,4 +228,61 @@ header nav ul li a span {
 }
 .s-hero .right-container .offer p strong {
   margin-left: 0.5rem;
+}
+
+.s-offer {
+  width: 100%;
+  height: 20rem;
+  background: url("../img/bg-login.png") no-repeat left center;
+  padding-top: 4.7rem;
+  padding-bottom: 3.2rem;
+  display: flex;
+  align-items: flex-end;
+}
+.s-offer .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.s-offer .left-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.1rem;
+  flex: 1;
+  max-width: 59.7rem;
+}
+.s-offer .left-container h3 {
+  color: var(--branco);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  letter-spacing: -0.401px;
+  margin-bottom: 5px;
+}
+.s-offer .left-container h2 {
+  color: var(--marrom);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4.2rem;
+  font-weight: bold;
+  letter-spacing: -0.652px;
+}
+.s-offer button {
+  flex: 1;
+  background: var(--branco);
+  border-radius: 12px;
+  margin-right: 3rem;
+  max-width: 52.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.9rem;
+  padding: 3rem 0;
+}
+.s-offer button span {
+  color: var(--azul);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: -0.301px;
 }/*# sourceMappingURL=main.css.map */
