@@ -285,4 +285,165 @@ header nav ul li a span {
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: -0.301px;
+}
+
+.s-combos {
+  padding: 7rem 0;
+}
+.s-combos .destaques {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+.s-combos .destaques > .box {
+  width: 26.3rem !important;
+  background-color: var(--amarelo) !important;
+}
+.s-combos .destaques .box {
+  border-radius: 12px;
+  background-color: var(--bege);
+  width: 21.8rem;
+  height: 14.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+}
+.s-combos .destaques .box h3 {
+  color: var(--branco);
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: -0.301px;
+  text-transform: uppercase;
+}
+.s-combos .destaques ul {
+  flex: 1;
+  max-width: 92.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+.s-combos .area-slide {
+  position: relative;
+  margin-top: 6.2rem;
+}
+.s-combos .area-slide .btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6.6rem;
+  height: 6.6rem;
+  background-color: var(--amarelo);
+  z-index: 2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-combos .area-slide .btn.swiper-button-disabled {
+  opacity: 0.6;
+  background-color: rgba(128, 123, 123, 0.555);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.s-combos .area-slide .btn.prev {
+  left: -3.3rem;
+}
+.s-combos .area-slide .btn.next {
+  right: -3.3rem;
+  transform: translateY(-50%) rotate(180deg);
+}
+.s-combos .area-slide .slide-combos {
+  overflow: hidden;
+}
+.s-combos .area-slide .slide-combos .card-combo {
+  width: 100%;
+  height: 49.3rem;
+  background-color: var(--bege);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.s-combos .area-slide .slide-combos .card-combo .image {
+  position: relative;
+  width: 100%;
+  height: 34rem;
+  overflow: hidden;
+  border-bottom: 3px dotted var(--branco);
+}
+.s-combos .area-slide .slide-combos .card-combo .image > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.s-combos .area-slide .slide-combos .card-combo .image button {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.6rem;
+  z-index: 2;
+  width: 3.8rem;
+  height: 3.8rem;
+  background-color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.s-combos .area-slide .slide-combos .card-combo .info {
+  padding: 3.6rem 4.4rem;
+}
+.s-combos .area-slide .slide-combos .card-combo .info strong {
+  color: var(--marrom);
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: -0.201px;
+  margin-bottom: 1.4rem;
+  display: block;
+}
+.s-combos .area-slide .slide-combos .card-combo .info h3 {
+  color: var(--laranja);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  letter-spacing: 1.477px;
+  text-transform: uppercase;
+}
+.s-combos .controle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.7rem;
+}
+.s-combos .controle .swiper-pagination {
+  position: relative;
+  bottom: 0;
+  width: auto;
+}
+.s-combos .controle .swiper-pagination-bullet {
+  background-color: var(--amarelo);
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+.s-combos .controle .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: var(--laranja);
+  transform: scale(1.2);
+}
+.s-combos .controle button {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+.s-combos .controle button span {
+  color: var(--amarelo);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: -0.176px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
