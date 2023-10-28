@@ -446,4 +446,71 @@ header nav ul li a span {
   font-weight: bold;
   letter-spacing: -0.176px;
   text-transform: uppercase;
+}
+
+footer .main-area {
+  background-color: var(--marrom);
+  padding-top: 4.9rem;
+  padding-bottom: 4.4rem;
+}
+footer .main-area .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .main-area .container > ul {
+  gap: 3.5rem;
+}
+footer .main-area ul {
+  display: flex;
+  align-items: center;
+}
+footer .main-area ul li a {
+  color: var(--branco);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: -0.429px;
+}
+footer .main-area .logo {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--branco);
+}
+footer .main-area .social {
+  display: flex;
+  align-items: center;
+  gap: 3.1rem;
+}
+footer .main-area .social span {
+  color: var(--branco);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: -0.429px;
+}
+footer .main-area .social ul {
+  gap: 2.3rem;
+}
+footer .main-area .social ul li a {
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: #5d2a1c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copy {
+  background-color: #5d2a1c;
+  padding: 1.4rem 0;
+  text-align: center;
+}
+footer .copy p {
+  color: var(--branco);
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  letter-spacing: -0.4px;
 }/*# sourceMappingURL=main.css.map */
