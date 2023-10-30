@@ -73,12 +73,18 @@ header {
           display: flex;
           align-items: center;
           gap: 1.1rem;
+          &:hover {
+            span {
+              color: var(--laranja);
+            }
+          }
           span {
             color: var(--marrom);
             font-family: "Ubuntu", sans-serif;
             font-size: 1.4rem;
             font-weight: bold;
             text-transform: uppercase;
+            transition: color 0.3s ease;
           }
         }
       }
@@ -288,6 +294,10 @@ header {
     justify-content: center;
     gap: 1.9rem;
     padding: 3rem 0;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--bege);
+    }
     span {
       color: var(--azul);
       font-family: "Ubuntu", sans-serif;
@@ -319,6 +329,7 @@ header {
       justify-content: center;
       flex-direction: column;
       gap: 9px;
+      transition: all 0.3s ease;
       h3 {
         color: var(--branco);
         text-align: center;
@@ -336,6 +347,14 @@ header {
       align-items: center;
       justify-content: space-between;
       gap: 1.6rem;
+      li {
+        .box {
+          &:hover {
+            background-color: var(--marrom);
+            box-shadow: 0px 10px 40px 0px rgba(89, 41, 28, 0.6);
+          }
+        }
+      }
     }
   }
   .area-slide {
@@ -375,6 +394,13 @@ header {
         background-color: var(--bege);
         border-radius: 6px;
         overflow: hidden;
+        &:hover {
+          .image {
+            & > img {
+              transform: scale(1.1);
+            }
+          }
+        }
         .image {
           position: relative;
           width: 100%;
@@ -385,6 +411,7 @@ header {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.5s ease;
           }
           button {
             position: absolute;
@@ -446,6 +473,11 @@ header {
       display: flex;
       align-items: center;
       gap: 1.4rem;
+      &:hover {
+        span {
+          color: var(--laranja);
+        }
+      }
       span {
         color: var(--amarelo);
         font-family: "Ubuntu", sans-serif;
@@ -453,6 +485,7 @@ header {
         font-weight: bold;
         letter-spacing: -0.176px;
         text-transform: uppercase;
+        transition: color 0.3s ease;
       }
     }
   }
@@ -480,6 +513,10 @@ footer {
           font-family: "Ubuntu", sans-serif;
           font-size: 1.5rem;
           letter-spacing: -0.429px;
+          transition: color 0.3s ease;
+          &:hover {
+            color: var(--amarelo);
+          }
         }
       }
     }
@@ -513,6 +550,10 @@ footer {
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: background-color 0.3s ease;
+            &:hover {
+              background-color: var(--laranja);
+            }
           }
         }
       }

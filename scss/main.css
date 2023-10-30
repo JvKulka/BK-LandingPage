@@ -71,12 +71,16 @@ header nav ul li a {
   align-items: center;
   gap: 1.1rem;
 }
+header nav ul li a:hover span {
+  color: var(--laranja);
+}
 header nav ul li a span {
   color: var(--marrom);
   font-family: "Ubuntu", sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
 .s-hero {
@@ -278,6 +282,10 @@ header nav ul li a span {
   justify-content: center;
   gap: 1.9rem;
   padding: 3rem 0;
+  transition: background-color 0.3s ease;
+}
+.s-offer button:hover {
+  background-color: var(--bege);
 }
 .s-offer button span {
   color: var(--azul);
@@ -310,6 +318,7 @@ header nav ul li a span {
   justify-content: center;
   flex-direction: column;
   gap: 9px;
+  transition: all 0.3s ease;
 }
 .s-combos .destaques .box h3 {
   color: var(--branco);
@@ -327,6 +336,10 @@ header nav ul li a span {
   align-items: center;
   justify-content: space-between;
   gap: 1.6rem;
+}
+.s-combos .destaques ul li .box:hover {
+  background-color: var(--marrom);
+  box-shadow: 0px 10px 40px 0px rgba(89, 41, 28, 0.6);
 }
 .s-combos .area-slide {
   position: relative;
@@ -368,6 +381,9 @@ header nav ul li a span {
   border-radius: 6px;
   overflow: hidden;
 }
+.s-combos .area-slide .slide-combos .card-combo:hover .image > img {
+  transform: scale(1.1);
+}
 .s-combos .area-slide .slide-combos .card-combo .image {
   position: relative;
   width: 100%;
@@ -380,6 +396,7 @@ header nav ul li a span {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: transform 0.5s ease;
 }
 .s-combos .area-slide .slide-combos .card-combo .image button {
   position: absolute;
@@ -439,6 +456,9 @@ header nav ul li a span {
   align-items: center;
   gap: 1.4rem;
 }
+.s-combos .controle button:hover span {
+  color: var(--laranja);
+}
 .s-combos .controle button span {
   color: var(--amarelo);
   font-family: "Ubuntu", sans-serif;
@@ -446,6 +466,7 @@ header nav ul li a span {
   font-weight: bold;
   letter-spacing: -0.176px;
   text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
 footer .main-area {
@@ -470,6 +491,10 @@ footer .main-area ul li a {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.5rem;
   letter-spacing: -0.429px;
+  transition: color 0.3s ease;
+}
+footer .main-area ul li a:hover {
+  color: var(--amarelo);
 }
 footer .main-area .logo {
   width: 9.6rem;
@@ -502,6 +527,10 @@ footer .main-area .social ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s ease;
+}
+footer .main-area .social ul li a:hover {
+  background-color: var(--laranja);
 }
 footer .copy {
   background-color: #5d2a1c;
